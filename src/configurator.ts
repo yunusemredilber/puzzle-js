@@ -58,7 +58,7 @@ const gatewayRenderStructure = struct({
 
 const gatewayFragmentAssetsStructure = struct({
     name: 'string',
-    fileName: 'string',
+    fileName: 'string?',
     link: 'string?',
     loadMethod: struct.enum(Object.values(RESOURCE_LOADING_TYPE)),
     type: struct.enum(Object.values(RESOURCE_TYPE)),
